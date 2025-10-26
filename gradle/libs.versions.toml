@@ -17,6 +17,8 @@ mviKotlin = "4.3.0"
 dagger = "2.57.2"
 ksp = "2.2.0-2.0.2"
 room = "2.8.3"
+monitor = "1.8.0"
+junitKtx = "1.3.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -57,6 +59,8 @@ room-compiler = { group = "androidx.room", name = "room-compiler", version.ref =
 
 #Firebase
 firebase-BOM = { group = "com.google.firebase", name = "firebase-bom", version.ref = "firebaseBOM" }
+androidx-monitor = { group = "androidx.test", name = "monitor", version.ref = "monitor" }
+androidx-junit-ktx = { group = "androidx.test.ext", name = "junit-ktx", version.ref = "junitKtx" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
