@@ -22,5 +22,9 @@ dependencyResolutionManagement {
 rootProject.name = "BlahBlahGram"
 include(":app")
 include(":features:authorization")
-include(":core:ui")
-include(":core:dependencies")
+include(":core:dependencies:navigation")
+include(":core:dependencies:common")
+include(":core:dependencies:ui")
+include(":core:designSystem")
+include(":core:dependencies:di")
+include(":core:dependencies:mviKotlin")
